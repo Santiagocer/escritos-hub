@@ -10,22 +10,31 @@
   <header class="hero">
     <div class="hero__content">
       <p class="eyebrow">Hub de poemas, reflexiones y más</p>
-      <h1>Poemas Hub</h1>
-      <p>Un espacio para descubrir poemas, reflexiones y versos cargados desde nuestra base de datos.</p>
+      <div class="hero-heading">
+        <span class="hero-badge">✨ Poemas</span>
+        <h1>Poemas Hub</h1>
+      </div>
+      <p>Un espacio inmersivo donde cada verso se siente, cada reflexión se descubre y cada historia brilla desde una base de datos viva.</p>
     </div>
   </header>
 
   <main class="container">
     <section class="controls">
-      <div>
+      <div class="search-group">
         <label for="search">Buscar:</label>
-        <input id="search" type="search" placeholder="Buscar título, autor, categoría o palabra clave" />
+        <div class="input-icon">
+          <span class="icon">🔎</span>
+          <input id="search" type="search" placeholder="Buscar título, autor, categoría o palabra clave" />
+        </div>
       </div>
-      <div>
+      <div class="search-group">
         <label for="category">Categoría:</label>
-        <select id="category">
-          <option value="todos">Todas</option>
-        </select>
+        <div class="input-icon">
+          <span class="icon">🏷️</span>
+          <select id="category">
+            <option value="todos">Todas</option>
+          </select>
+        </div>
       </div>
       <div class="filters">
         <button class="filter-button active" data-type="todos">Todos</button>
@@ -33,6 +42,8 @@
         <button class="filter-button" data-type="reflexion">Reflexiones</button>
         <button class="filter-button" data-type="verso">Versos</button>
       </div>
+      <button id="themeToggle" class="theme-button" aria-label="Modo extra oscuro">🌙 Modo oscuro</button>
+            <button id="clearFilters" class="clear-button">Limpiar filtros</button>
     </section>
 
     <section class="result-summary">

@@ -2,16 +2,39 @@ const cardsEl = document.getElementById("cards");
 const searchInput = document.getElementById("search");
 const categorySelect = document.getElementById("category");
 const resultCountEl = document.getElementById("resultCount");
+const clearFiltersBtn = document.getElementById("clearFilters");
+const themeToggle = document.getElementById("themeToggle");
 const filterButtons = document.querySelectorAll(".filter-button");
 let poems = [];
 let activeType = "todos";
 let activeCategory = "todos";
+
+const typeIcons = {
+  poema: "✒️",
+  reflexion: "💭",
+  verso: "🎵",
+};
 
 const sortByDateDesc = (list) => [...list].sort((a, b) => b.fecha.localeCompare(a.fecha));
 
 const updateResultCount = (count, total) => {
   resultCountEl.textContent = `Mostrando ${count} de ${total} entradas`;
 };
+
+const setTheme = (theme) => {
+  document.body.classList.toggle('theme-extra-dark', theme === 'extra');
+  localStorage.setItem('poemas-theme', theme);
+  if (themeToggle) {
+    themeToggle.textContent = theme === 'extra' ? '☀️ Modo claro' : '🌙 Modo oscuro';
+  }
+};
+
+const loadTheme = () => {
+  const stored = localStorage.getItem('poemas-theme') || 'normal';
+  setTheme(stored);
+};
+
+const getTypeIcon = (type) => typeIcons[type] || "📌";
 
 const populateCategoryOptions = () => {
   const categories = new Set();
@@ -30,11 +53,40 @@ const getCategories = (item) => {
 const renderCategoryTags = (item) => {
   const categories = getCategories(item);
   if (!categories.length) return "<span class=\"tag\">Sin categoría</span>";
-  return categories.map((category) => `<span class="tag">${category}</span>`).join(" ");
+  return categories
+    .map((category) => `<span class="tag">${category}</span>`)
+    .join(" ");
+};
+
+const renderTypeLabel = (item) => {
+  return `<span class="meta-item"><span class="meta-icon">${getTypeIcon(item.tipo)}</span>${item.tipo}</span>`;
+};
+
+const renderLoadingMarkup = () => {
+  return `
+    <div class="loading-spinner">
+      <div class="spinner-ring"></div>
+    </div>
+    <div class="skeleton-grid">
+      <div class="skeleton-card">
+        <div class="skeleton-line short"></div>
+        <div class="skeleton-line medium"></div>
+        <div class="skeleton-line tall"></div>
+        <div class="skeleton-line"></div>
+      </div>
+      <div class="skeleton-card">
+        <div class="skeleton-line short"></div>
+        <div class="skeleton-line medium"></div>
+        <div class="skeleton-line tall"></div>
+        <div class="skeleton-line"></div>
+      </div>
+    </div>
+  `;
 };
 
 async function loadPoems() {
   try {
+    cardsEl.innerHTML = renderLoadingMarkup();
     const response = await fetch("poems.json");
     if (!response.ok) throw new Error("No se pudo cargar la base de datos.");
     poems = sortByDateDesc(await response.json());
@@ -58,7 +110,7 @@ function renderCards(list) {
       (item) => `
       <article class="card">
         <div class="meta">
-          <span>${item.tipo}</span>
+          ${renderTypeLabel(item)}
           ${renderCategoryTags(item)}
         </div>
         <h2>${item.titulo}</h2>
@@ -91,6 +143,19 @@ categorySelect.addEventListener("change", (event) => {
   activeCategory = event.target.value;
   applyFilter();
 });
+themeToggle.addEventListener("click", () => {
+  const nextTheme = document.body.classList.contains("theme-extra-dark") ? "normal" : "extra";
+  setTheme(nextTheme);
+});
+clearFiltersBtn.addEventListener("click", () => {
+  searchInput.value = "";
+  categorySelect.value = "todos";
+  activeCategory = "todos";
+  filterButtons.forEach((btn) => btn.classList.remove("active"));
+  document.querySelector('[data-type="todos"]').classList.add("active");
+  activeType = "todos";
+  applyFilter();
+});
 filterButtons.forEach((button) => {
   button.addEventListener("click", () => {
     filterButtons.forEach((btn) => btn.classList.remove("active"));
@@ -100,4 +165,5 @@ filterButtons.forEach((button) => {
   });
 });
 
+loadTheme();
 loadPoems();
