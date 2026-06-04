@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Poemas Hub</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="hero__content">
+      <p class="eyebrow">Hub de poemas, reflexiones y más</p>
+      <h1>Poemas Hub</h1>
+      <p>Un espacio para descubrir poemas, reflexiones y versos cargados desde nuestra base de datos.</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="controls">
+      <div>
+        <label for="search">Buscar:</label>
+        <input id="search" type="search" placeholder="Buscar título, autor o palabra clave" />
+      </div>
+      <div class="filters">
+        <button class="filter-button active" data-type="todos">Todos</button>
+        <button class="filter-button" data-type="poema">Poemas</button>
+        <button class="filter-button" data-type="reflexion">Reflexiones</button>
+        <button class="filter-button" data-type="verso">Versos</button>
+      </div>
+    </section>
+
+    <section id="cards" class="cards" aria-live="polite">
+      <p class="loading">Cargando poemas...</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Creado como un hub simple de poemas y reflexiones.</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>

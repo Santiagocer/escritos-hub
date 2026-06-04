@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "titulo": "Tu luz en mi noche",
+        "autor": "Santiago Cerdeira",
+        "tipo": "poema",
+        "categoria": "",
+        "fecha": "2025-12-04",
+        "texto": "Bajo el manto de la noche fría,\ntu recuerdo me brinda su calor,\neres la luz que mi camino guía,\nel tierno dueño de mi gran amor.\n\nMirar tus ojos es perder el suelo,\nescuchar tu voz es mi melodía,\nhabitar en tu pecho es mi consuelo,\ny amarte tanto, mi mayor alegría."
+    },
+    {
+        "id": 2,
+        "titulo": "Ecos del tiempo",
+        "autor": "Santiago Cerdeira",
+        "tipo": "poema",
+        "categoria": "",
+        "fecha": "2026-06-03",
+        "texto": "El tiempo es un río que fluye sin cesar,\nlleva consigo recuerdos y sueños por igual.\nEn sus aguas se reflejan momentos pasados,\ny en su corriente se pierden los suspiros."
+    }
+]
