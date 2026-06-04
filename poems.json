@@ -4,17 +4,733 @@
         "titulo": "Tu luz en mi noche",
         "autor": "Santiago Cerdeira",
         "tipo": "poema",
-        "categoria": "",
+        "categorias": [
+            "Amor",
+            "Romance",
+            "Noche"
+        ],
         "fecha": "2025-12-04",
         "texto": "Bajo el manto de la noche fría,\ntu recuerdo me brinda su calor,\neres la luz que mi camino guía,\nel tierno dueño de mi gran amor.\n\nMirar tus ojos es perder el suelo,\nescuchar tu voz es mi melodía,\nhabitar en tu pecho es mi consuelo,\ny amarte tanto, mi mayor alegría."
     },
     {
         "id": 2,
-        "titulo": "Ecos del tiempo",
+        "titulo": "El eco del tiempo",
+        "autor": "Santiago Cerdeira",
+        "tipo": "reflexion",
+        "categorias": [
+            "Tiempo",
+            "Vida",
+            "Nostalgia"
+        ],
+        "fecha": "2025-12-06",
+        "texto": "El tiempo no se detiene a curar nuestras heridas, solo nos enseña a caminar con ellas. Cada segundo que pasa es una página que se pasa en blanco, y depende de nosotros escribir algo que valga la pena recordar antes de que caiga el telón."
+    },
+    {
+        "id": 3,
+        "titulo": "Suspiros al viento",
+        "autor": "Santiago Cerdeira",
+        "tipo": "verso",
+        "categorias": [
+            "Melancolía",
+            "Desamor"
+        ],
+        "fecha": "2025-12-09",
+        "texto": "Se lleva el viento mis quejas,\nse lleva el alma el dolor,\ncuando te marchas y dejas\nsolo un invierno de amor."
+    },
+    {
+        "id": 4,
+        "titulo": "Cicatrices de oro",
+        "autor": "Santiago Cerdeira",
+        "tipo": "reflexion",
+        "categorias": [
+            "Superación",
+            "Crecimiento"
+        ],
+        "fecha": "2025-12-10",
+        "texto": "No te avergüences de tus roturas. Al igual que el arte del kintsugi, donde la cerámica rota se repara con oro, nuestras imperfecciones y heridas superadas nos convierten en seres mucho más fuertes, bellos y valiosos."
+    },
+    {
+        "id": 5,
+        "titulo": "Mar eterno",
         "autor": "Santiago Cerdeira",
         "tipo": "poema",
-        "categoria": "",
-        "fecha": "2026-06-03",
-        "texto": "El tiempo es un río que fluye sin cesar,\nlleva consigo recuerdos y sueños por igual.\nEn sus aguas se reflejan momentos pasados,\ny en su corriente se pierden los suspiros."
+        "categorias": [
+            "Naturaleza",
+            "Soledad"
+        ],
+        "fecha": "2025-12-14",
+        "texto": "Frente al oleaje del inmenso mar,\nsiento mi pecho vibrar de emoción,\nel agua mansa me invita a soñar,\ny a liberar esta vieja canción.\n\nOlas que vienen, olas que van,\nse llevan lejos toda la ansiedad."
+    },
+    {
+        "id": 6,
+        "titulo": "La verdad del espejo",
+        "autor": "Santiago Cerdeira",
+        "tipo": "reflexion",
+        "categorias": [
+            "Autoestima",
+            "Identidad"
+        ],
+        "fecha": "2025-12-16",
+        "texto": "A veces buscamos la aprobación del mundo entero, olvidando que la única mirada que realmente define nuestro valor es la que nos devuelve el espejo cada mañana al despertar. Sé fiel a ti mismo."
+    },
+    {
+        "id": 7,
+        "titulo": "Miradas que hablan",
+        "autor": "Santiago Cerdeira",
+        "tipo": "verso",
+        "categorias": [
+            "Conexión",
+            "Amor"
+        ],
+        "fecha": "2025-12-19",
+        "texto": "No hacen falta las palabras\ncuando sobra el corazón,\ntus ojos abren las puertas\nde mi oculta devoción."
+    },
+    {
+        "id": 8,
+        "titulo": "El arte de soltar",
+        "autor": "Santiago Cerdeira",
+        "tipo": "reflexion",
+        "categorias": [
+            "Libertad",
+            "Paz interior"
+        ],
+        "fecha": "2025-12-20",
+        "texto": "Sostener el pasado con fuerza solo te cansa las manos y te impide recibir los regalos del presente. Dejar ir no es un acto de debilidad o cobardía, sino el mayor reflejo de amor propio y madurez."
+    },
+    {
+        "id": 9,
+        "titulo": "Otoño en el alma",
+        "autor": "Santiago Cerdeira",
+        "tipo": "poema",
+        "categorias": [
+            "Nostalgia",
+            "Naturaleza"
+        ],
+        "fecha": "2025-12-25",
+        "texto": "Caen las hojas de color marrón,\nel frío invierno se empieza a sentir,\ny en un rincón de mi fiel corazón,\ntu tierno aroma vuelve a revivir.\n\nEs la nostalgia que viste el jardín,\nun bello cuento que no tiene fin."
+    },
+    {
+        "id": 10,
+        "titulo": "Brevedad",
+        "autor": "Santiago Cerdeira",
+        "tipo": "verso",
+        "categorias": [
+            "Vida",
+            "Efímero"
+        ],
+        "fecha": "2025-12-27",
+        "texto": "La vida es un breve destello,\nun soplo de viento sutil,\nhaz de este viaje algo bello\nantes de verte partir."
+    },
+    {
+        "id": 11,
+        "titulo": "Silencios necesarios",
+        "autor": "Santiago Cerdeira",
+        "tipo": "reflexion",
+        "categorias": [
+            "Mente",
+            "Silencio"
+        ],
+        "fecha": "2025-12-30",
+        "texto": "Vivimos en un mundo demasiado ruidoso que nos empuja a reaccionar a todo. Sin embargo, el silencio estratégico es donde reside la verdadera sabiduría. Callar para escuchar nuestra voz interior es el mejor escudo contra el caos."
+    },
+    {
+        "id": 12,
+        "titulo": "Promesa de primavera",
+        "autor": "Santiago Cerdeira",
+        "tipo": "poema",
+        "categorias": [
+            "Esperanza",
+            "Futuro"
+        ],
+        "fecha": "2026-01-01",
+        "texto": "Aunque el invierno congele la flor,\ny la tormenta destruya el rosal,\nsiempre regresa un rayo de sol\npara salvarnos de todo aquel mal.\n\nFloreceremos de nuevo los dos,\nbajo la gracia de un mundo mejor."
+    },
+    {
+        "id": 13,
+        "titulo": "Caminos cruzados",
+        "autor": "Santiago Cerdeira",
+        "tipo": "verso",
+        "categorias": [
+            "Destino",
+            "Amistad"
+        ],
+        "fecha": "2026-01-04",
+        "texto": "El destino nos une un momento\nen este sendero infinito,\ny grabo en mi pensamiento\ntu nombre que considero bendito."
+    },
+    {
+        "id": 14,
+        "titulo": "La trampa de las expectativas",
+        "autor": "Santiago Cerdeira",
+        "tipo": "reflexion",
+        "categorias": [
+            "Filosofía",
+            "Felicidad"
+        ],
+        "fecha": "2026-01-05",
+        "texto": "Sufrimos más por lo que imaginamos y esperamos de las personas que por la realidad misma. Aprender a aceptar a los demás tal como son, sin guiones preestablecidos, es la llave dorada para la paz mental."
+    },
+    {
+        "id": 15,
+        "titulo": "Estrella perdida",
+        "autor": "Santiago Cerdeira",
+        "tipo": "poema",
+        "categorias": [
+            "Universo",
+            "Añoranza"
+        ],
+        "fecha": "2026-01-09",
+        "texto": "Busco en el cielo tu rastro de luz,\nastro lejano que ya no pretendo alcanzar,\ncargo en mi espalda la inmensa cruz\nde no haber sabido cómo amar.\n\nSigue brillando en la inmensidad,\nmientras yo habito en mi soledad."
+    },
+    {
+        "id": 16,
+        "titulo": "La riqueza invisible",
+        "autor": "Santiago Cerdeira",
+        "tipo": "reflexion",
+        "categorias": [
+            "Gratitud",
+            "Espiritualidad"
+        ],
+        "fecha": "2026-01-11",
+        "texto": "La verdadera riqueza no se mide por lo que tienes acumulado en las manos, sino por todo aquello que posees en el alma y que el dinero jamás podría comprar: un abrazo sincero, la paz mental y una risa compartida."
+    },
+    {
+        "id": 17,
+        "titulo": "Fuego interno",
+        "autor": "Santiago Cerdeira",
+        "tipo": "verso",
+        "categorias": [
+            "Pasión",
+            "Fuerza"
+        ],
+        "fecha": "2026-01-14",
+        "texto": "No permitas que apaguen tu llama\nlos vientos de la adversidad,\nquien con el alma reclama\nencuentra su propia verdad."
+    },
+    {
+        "id": 18,
+        "titulo": "Laberintos de la mente",
+        "autor": "Santiago Cerdeira",
+        "tipo": "reflexion",
+        "categorias": [
+            "Psicología",
+            "Pensamientos"
+        ],
+        "fecha": "2026-01-15",
+        "texto": "Pensar demasiado es el arte de crear problemas que no existen. Tu mente puede ser un palacio o una prisión; todo depende de a qué pensamientos decidas alimentar y a cuáles decidas dejar pasar de largo."
+    },
+    {
+        "id": 19,
+        "titulo": "Café de invierno",
+        "autor": "Santiago Cerdeira",
+        "tipo": "poema",
+        "categorias": [
+            "Cotidiano",
+            "Melancolía"
+        ],
+        "fecha": "2026-01-20",
+        "texto": "Una taza humeante en la mesa,\nel cristal empañado de gris,\nesta tarde me invade la tristeza\nal recordar cuando era feliz.\n\nTu silla vacía me mira pasar,\ny el café se comienza a enfriar."
+    },
+    {
+        "id": 20,
+        "titulo": "Pasos firmes",
+        "autor": "Santiago Cerdeira",
+        "tipo": "verso",
+        "categorias": [
+            "Motivación",
+            "Crecimiento"
+        ],
+        "fecha": "2026-01-22",
+        "texto": "No importa que el paso sea lento\nsi vas con la meta en la mira,\nvaliente es aquel que en su intento\npor causas nobles suspira."
+    },
+    {
+        "id": 21,
+        "titulo": "El valor del fracaso",
+        "autor": "Santiago Cerdeira",
+        "tipo": "reflexion",
+        "categorias": [
+            "Éxito",
+            "Aprendizaje"
+        ],
+        "fecha": "2026-01-25",
+        "texto": "El fracaso no es lo contrario al éxito, sino un peldaño indispensable en su camino. Cada error nos despoja de la arrogancia y nos regala la experiencia necesaria para volver a intentarlo con mayor inteligencia."
+    },
+    {
+        "id": 22,
+        "titulo": "Sinfonía del alma",
+        "autor": "Santiago Cerdeira",
+        "tipo": "poema",
+        "categorias": [
+            "Música",
+            "Inspiración"
+        ],
+        "fecha": "2026-01-27",
+        "texto": "Suena una nota en mi pecho latiente,\nnotas de amor que no puedo callar,\nes un acorde dulce y valiente\nque busca tus playas para descansar.\n\nSinfonía eterna que no morirá\nmientras mi boca te vuelva a cantar."
+    },
+    {
+        "id": 23,
+        "titulo": "Palabras vacías",
+        "autor": "Santiago Cerdeira",
+        "tipo": "verso",
+        "categorias": [
+            "Sinceridad",
+            "Desilusión"
+        ],
+        "fecha": "2026-01-30",
+        "texto": "Se cansa el oído de escuchar\npromesas escritas en hielo,\nprefiero un silencio sincero\na un falso y eterno te quiero."
+    },
+    {
+        "id": 24,
+        "titulo": "Vivir el ahora",
+        "autor": "Santiago Cerdeira",
+        "tipo": "reflexion",
+        "categorias": [
+            "Consciencia",
+            "Presente"
+        ],
+        "fecha": "2026-01-31",
+        "texto": "El ayer ya es polvo y el mañana es solo una quimera. Lo único real que poseemos es este preciso instante. Desperdiciarlo preocupándonos por el futuro es como pagar los intereses de una deuda que aún no hemos adquirido."
+    },
+    {
+        "id": 25,
+        "titulo": "Cazador de auroras",
+        "autor": "Santiago Cerdeira",
+        "tipo": "poema",
+        "categorias": [
+            "Aventura",
+            "Sueños"
+        ],
+        "fecha": "2026-02-04",
+        "texto": "Persigo los hilos de luz de la aurora,\nallá donde el cielo se viste de oro,\nmi espíritu libre la tierra explora\nbuscando la paz que tanto atesoro.\n\nNo tengo cadenas que aten mis pies,\nel mundo me espera al derecho y al revés."
+    },
+    {
+        "id": 26,
+        "titulo": "Semillas de bondad",
+        "autor": "Santiago Cerdeira",
+        "tipo": "reflexion",
+        "categorias": [
+            "Empatía",
+            "Humanidad"
+        ],
+        "fecha": "2026-02-06",
+        "texto": "Nunca subestimes el impacto de un pequeño acto de amabilidad. Una palabra de aliento a tiempo o una sonrisa a un extraño pueden cambiarle el día a alguien e iniciar una cadena invisible de luz en el mundo."
+    },
+    {
+        "id": 27,
+        "titulo": "Raíces",
+        "autor": "Santiago Cerdeira",
+        "tipo": "verso",
+        "categorias": [
+            "Familia",
+            "Origen"
+        ],
+        "fecha": "2026-02-09",
+        "texto": "Por altas que crezcan las ramas\ny busquen tocar las estrellas,\nson las raíces internas\nlas que nos hacen más bellas."
+    },
+    {
+        "id": 28,
+        "titulo": "El faro de la templanza",
+        "autor": "Santiago Cerdeira",
+        "tipo": "reflexion",
+        "categorias": [
+            "Sabiduría",
+            "Estoicismo"
+        ],
+        "fecha": "2026-02-10",
+        "texto": "No puedes controlar la dirección del viento ni la furia de las olas, pero siempre tendrás el control total sobre cómo gobiernas tu propio barco. La templanza en mitad de la tormenta es el verdadero superpoder del ser humano."
+    },
+    {
+        "id": 29,
+        "titulo": "Año nuevo, lienzo blanco",
+        "autor": "Santiago Cerdeira",
+        "tipo": "poema",
+        "categorias": [
+            "Nuevos comienzos",
+            "Esperanza"
+        ],
+        "fecha": "2026-02-15",
+        "texto": "Se apaga la vela del año que fue,\nse enciende una llama de gran ilusión,\nrecibo los días con absoluta fe,\ny guardo los males en el callejón.\n\n365 oportunidades más\npara vivir siempre en absoluta paz."
+    },
+    {
+        "id": 30,
+        "titulo": "Destellos de luna",
+        "autor": "Santiago Cerdeira",
+        "tipo": "verso",
+        "categorias": [
+            "Noche",
+            "Misticismo"
+        ],
+        "fecha": "2026-02-17",
+        "texto": "La luna me dicta sus notas\nbañadas en plata y olvido,\ny escribo en las hojas rotas\nlo mucho que yo te he querido."
+    },
+    {
+        "id": 31,
+        "titulo": "La madurez del alma",
+        "autor": "Santiago Cerdeira",
+        "tipo": "reflexion",
+        "categorias": [
+            "Madurez",
+            "Evolución"
+        ],
+        "fecha": "2026-02-20",
+        "texto": "Madurar no es volverse serio, aburrido o amargado; madurar es entender que no todo merece una respuesta, que la paz interior es innegociable y que aprender a reírse de uno mismo es la mejor medicina contra el ego."
+    },
+    {
+        "id": 32,
+        "titulo": "Susurros del viento invernal",
+        "autor": "Santiago Cerdeira",
+        "tipo": "verso",
+        "categorias": [
+            "Naturaleza",
+            "Invierno"
+        ],
+        "fecha": "2026-02-22",
+        "texto": "Sopla el viento con desdén,\nlimpiando el viejo sendero,\nse van las penas también\nbajo este cielo de enero."
+    },
+    {
+        "id": 33,
+        "titulo": "La ilusión del control",
+        "autor": "Santiago Cerdeira",
+        "tipo": "reflexion",
+        "categorias": [
+            "Filosofía",
+            "Ansiedad"
+        ],
+        "fecha": "2026-02-25",
+        "texto": "Sufrimos porque pretendemos que la vida se ajuste a nuestros planes perfectos. La realidad es un río salvaje; no podemos controlar su cauce, pero siempre podemos aprender a nadar a favor de su corriente."
+    },
+    {
+        "id": 34,
+        "titulo": "San Valentín sin ti",
+        "autor": "Santiago Cerdeira",
+        "tipo": "poema",
+        "categorias": [
+            "Desamor",
+            "Melancolía"
+        ],
+        "fecha": "2026-02-26",
+        "texto": "Las calles se llenan de flores y abrazos,\nmientras yo camino con la mente fría,\nrecordando el roce de nuestros lazos\ny aquella promesa que no sería.\n\nHoy brindo en silencio por lo que dejamos,\ny por el destino que nunca encontramos."
+    },
+    {
+        "id": 35,
+        "titulo": "El peligro de las máscaras",
+        "autor": "Santiago Cerdeira",
+        "tipo": "reflexion",
+        "categorias": [
+            "Sinceridad",
+            "Sociedad"
+        ],
+        "fecha": "2026-03-02",
+        "texto": "Pasamos tanto tiempo diseñando una versión perfecta de nosotros mismos para complacer a los demás, que terminamos desconociendo al ser humano real que nos observa desde el espejo. Quítate la máscara; la autenticidad es tu mayor virtud."
+    },
+    {
+        "id": 36,
+        "titulo": "Despertar de febrero",
+        "autor": "Santiago Cerdeira",
+        "tipo": "verso",
+        "categorias": [
+            "Esperanza",
+            "Tiempo"
+        ],
+        "fecha": "2026-03-04",
+        "texto": "Ya se acorta la noche oscura,\nya se asoma un rayo sutil,\nla vida cura la amargura\nantes de que llegue abril."
+    },
+    {
+        "id": 37,
+        "titulo": "Primer brote",
+        "autor": "Santiago Cerdeira",
+        "tipo": "poema",
+        "categorias": [
+            "Naturaleza",
+            "Renacimiento"
+        ],
+        "fecha": "2026-03-07",
+        "texto": "En la rama seca nació un tierno brote,\nverde testigo de la resistencia,\nno hay invierno que al mundo derrote,\nni pena que apague la fiel existencia.\n\nLa tierra despierta de su letargo,\ny olvida por fin el invierno amargo."
+    },
+    {
+        "id": 38,
+        "titulo": "La paradoja de la hiperconexión",
+        "autor": "Santiago Cerdeira",
+        "tipo": "reflexion",
+        "categorias": [
+            "Tecnología",
+            "Soledad"
+        ],
+        "fecha": "2026-03-08",
+        "texto": "Nunca antes estuvimos tan conectados y, al mismo tiempo, tan ridículamente solos. Cambiamos las miradas fijas por pantallas brillantes y los abrazos tibios por notificaciones vacías. Volvamos a mirarnos a los ojos."
+    },
+    {
+        "id": 39,
+        "titulo": "Equinoccio",
+        "autor": "Santiago Cerdeira",
+        "tipo": "verso",
+        "categorias": [
+            "Equilibrio",
+            "Luz"
+        ],
+        "fecha": "2026-03-13",
+        "texto": "El día y la noche se dan la mano,\nen un abrazo de igual medida,\ntodo en la tierra encuentra su plano,\ntodo recobra fuerza y vida."
+    },
+    {
+        "id": 40,
+        "titulo": "Abril y sus lluvias",
+        "autor": "Santiago Cerdeira",
+        "tipo": "poema",
+        "categorias": [
+            "Nostalgia",
+            "Lluvia"
+        ],
+        "fecha": "2026-03-15",
+        "texto": "Gotas que caen sobre mi ventana,\nlimpiando el polvo de la vieja acera,\nme traen recuerdos de aquella mañana\ncuando tu amor era mi primavera.\n\nLluvia constante, bendito consuelo,\nque borra los rastros de mi desvelo."
+    },
+    {
+        "id": 41,
+        "titulo": "El peso de los 'hubiera'",
+        "autor": "Santiago Cerdeira",
+        "tipo": "reflexion",
+        "categorias": [
+            "Mente",
+            "Arrepentimiento"
+        ],
+        "fecha": "2026-03-18",
+        "texto": "El 'hubiera' es el fantasma más pesado que podemos cargar en la espalda. No existe, no construye y solo sirve para encadenarnos a un pasado que ya no se puede modificar. Hiciste lo mejor que pudiste con la madurez que tenías entonces. Perdónate."
+    },
+    {
+        "id": 42,
+        "titulo": "Canto de madrugada",
+        "autor": "Santiago Cerdeira",
+        "tipo": "verso",
+        "categorias": [
+            "Música",
+            "Amanecer"
+        ],
+        "fecha": "2026-03-20",
+        "texto": "Canta el ave en la alborada\nsin temor al porvenir,\nsu melodía sagrada\nnos invita a sonreír."
+    },
+    {
+        "id": 43,
+        "titulo": "Flores de mayo",
+        "autor": "Santiago Cerdeira",
+        "tipo": "poema",
+        "categorias": [
+            "Amor",
+            "Belleza"
+        ],
+        "fecha": "2026-03-23",
+        "texto": "Se viste el campo de mil colores,\nhay una fiesta en cada rincón,\ny entre el perfume de tantas flores,\ntu dulce risa es mi bendición.\n\nMayo regala su luz divina,\ny tu presencia mi alma ilumina."
+    },
+    {
+        "id": 44,
+        "titulo": "La tiranía del ritmo moderno",
+        "autor": "Santiago Cerdeira",
+        "tipo": "reflexion",
+        "categorias": [
+            "Estilo de vida",
+            "Paz"
+        ],
+        "fecha": "2026-03-24",
+        "texto": "Nos han hecho creer que estar siempre ocupados es sinónimo de éxito. Corremos sin parar hacia metas que ni siquiera sabemos si deseamos. Parar a respirar, tomar un café sin mirar el reloj y contemplar el atardecer también es ganar."
+    },
+    {
+        "id": 45,
+        "titulo": "Huellas en la arena",
+        "autor": "Santiago Cerdeira",
+        "tipo": "verso",
+        "categorias": [
+            "Olvido",
+            "Mar"
+        ],
+        "fecha": "2026-03-28",
+        "texto": "Escribí tu nombre en la orilla,\nla marea eterna llegó,\nse llevó la frase sencilla\ny el viento su eco apagó."
+    },
+    {
+        "id": 46,
+        "titulo": "Solsticio de verano",
+        "autor": "Santiago Cerdeira",
+        "tipo": "poema",
+        "categorias": [
+            "Calor",
+            "Plenitud"
+        ],
+        "fecha": "2026-03-30",
+        "texto": "El sol corona la tarde más larga,\nbañando los campos de fuego y de luz,\nel alma se limpia de toda su carga\ny deja de lado la antigua cruz.\n\nEs tiempo de fuego, de danza y de mar,\nes tiempo bendito para disfrutar."
+    },
+    {
+        "id": 47,
+        "titulo": "Aprender de los árboles",
+        "autor": "Santiago Cerdeira",
+        "tipo": "reflexion",
+        "categorias": [
+            "Naturaleza",
+            "Sabiduría"
+        ],
+        "fecha": "2026-04-02",
+        "texto": "Observa a los árboles: extienden sus ramas hacia el cielo pero jamás olvidan la firmeza de sus raíces. Soportan tormentas perdiendo hojas, pero saben con absoluta certeza que el ciclo de la vida los hará florecer de nuevo."
+    },
+    {
+        "id": 48,
+        "titulo": "Noches de julio",
+        "autor": "Santiago Cerdeira",
+        "tipo": "verso",
+        "categorias": [
+            "Romance",
+            "Estrellas"
+        ],
+        "fecha": "2026-04-03",
+        "texto": "Bajo el cielo despejado\nde este julio abrasador,\ncaminando de tu lado\nsiento vivo nuestro amor."
+    },
+    {
+        "id": 49,
+        "titulo": "Atardecer de agosto",
+        "autor": "Santiago Cerdeira",
+        "tipo": "poema",
+        "categorias": [
+            "Melancolía",
+            "Paisaje"
+        ],
+        "fecha": "2026-04-08",
+        "texto": "El cielo se tiñe de un rojo encendido,\nel día se apaga con lenta quietud,\ny en medio del bosque me quedo perdido\npensando en los días de la juventud.\n\nQué bellos los años que no volverán,\nqué dulces los besos que no morirán."
+    },
+    {
+        "id": 50,
+        "titulo": "La envidia es un espejo",
+        "autor": "Santiago Cerdeira",
+        "tipo": "reflexion",
+        "categorias": [
+            "Crecimiento",
+            "Ego"
+        ],
+        "fecha": "2026-04-10",
+        "texto": "Cuando sientas envidia por el logro de alguien, detente a mirar tu propio interior. Ese sentimiento no habla del otro; habla de tus propias carencias y deseos insatisfechos. Usa esa energía para construir tu camino, no para criticar el ajeno."
+    },
+    {
+        "id": 51,
+        "titulo": "Tormenta eléctrica",
+        "autor": "Santiago Cerdeira",
+        "tipo": "verso",
+        "categorias": [
+            "Fuerza",
+            "Pasión"
+        ],
+        "fecha": "2026-04-13",
+        "texto": "Ruge el trueno en la distancia,\nraya el rayo el nubarrón,\ntu recuerdo tiene la sustancia\nque estremece mi corazón."
+    },
+    {
+        "id": 52,
+        "titulo": "Sabor a septiembre",
+        "autor": "Santiago Cerdeira",
+        "tipo": "poema",
+        "categorias": [
+            "Nostalgia",
+            "Transición"
+        ],
+        "fecha": "2026-04-15",
+        "texto": "Huele a tierra mojada el ambiente,\nel verano se empieza a marchar,\nun aire dorado y más fresco se siente,\ny el alma de nuevo se vuelve a ordenar.\n\nEs tiempo de cambios, de calma y hogar,\nun nuevo ciclo vuelve a empezar."
+    },
+    {
+        "id": 53,
+        "titulo": "El filtro de la distancia",
+        "autor": "Santiago Cerdeira",
+        "tipo": "reflexion",
+        "categorias": [
+            "Relaciones",
+            "Tiempo"
+        ],
+        "fecha": "2026-04-18",
+        "texto": "La distancia tiene una extraña virtud: funciona como un tamiz que separa lo esencial de lo pasajero. Quien realmente quiere estar en tu vida buscará puentes, no excusas; y quien se marcha, simplemente te libera espacio para lo que viene."
+    },
+    {
+        "id": 54,
+        "titulo": "Hojas secas",
+        "autor": "Santiago Cerdeira",
+        "tipo": "verso",
+        "categorias": [
+            "Otoño",
+            "Desapego"
+        ],
+        "fecha": "2026-04-19",
+        "texto": "Crujen las hojas al paso,\nvisten el suelo de gris,\nel año camina al ocaso\ny yo intento ser feliz."
+    },
+    {
+        "id": 55,
+        "titulo": "Luna de octubre",
+        "autor": "Santiago Cerdeira",
+        "tipo": "poema",
+        "categorias": [
+            "Misticismo",
+            "Noche"
+        ],
+        "fecha": "2026-04-23",
+        "texto": "Es la luna de octubre la más elegante,\nun enorme escudo de plata y cristal,\nque mira la tierra con porte constante\ny limpia los ojos de todo mortal.\n\nBajo su influjo te vuelvo a escribir,\npidiendo al destino volverte a sentir."
+    },
+    {
+        "id": 56,
+        "titulo": "El arte de no encajar",
+        "autor": "Santiago Cerdeira",
+        "tipo": "reflexion",
+        "categorias": [
+            "Identidad",
+            "Libertad"
+        ],
+        "fecha": "2026-04-25",
+        "texto": "Si sientes que no encajas en este mundo loco, felicidades. No viniste a ser una copia exacta de un molde social defectuoso. Tu rareza es tu magia; tus imperfecciones son tus sellos de autenticidad. No te apagues por encajar."
+    },
+    {
+        "id": 57,
+        "titulo": "Niebla matutina",
+        "autor": "Santiago Cerdeira",
+        "tipo": "verso",
+        "categorias": [
+            "Misterio",
+            "Soledad"
+        ],
+        "fecha": "2026-04-28",
+        "texto": "La niebla esconde el camino,\nborra el contorno del mar,\nasí es a veces el destino,\nnos obliga a caminar a ciegas."
+    },
+    {
+        "id": 58,
+        "titulo": "Cierre de ciclos",
+        "autor": "Santiago Cerdeira",
+        "tipo": "reflexion",
+        "categorias": [
+            "Evolución",
+            "Crecimiento"
+        ],
+        "fecha": "2026-04-29",
+        "texto": "Diciembre no es solo el fin de un calendario, es el recordatorio sicológico de que somos capaces de sobrevivir a doce meses de pruebas, alegrías y dolores. Mírate al espejo y siéntete orgulloso de seguir en pie."
+    },
+    {
+        "id": 59,
+        "titulo": "Un año después",
+        "autor": "Santiago Cerdeira",
+        "tipo": "poema",
+        "categorias": [
+            "Amor",
+            "Tiempo"
+        ],
+        "fecha": "2026-05-20",
+        "texto": "Ha pasado ya un año completo y entero\ndesde que mi pluma te dio aquella canción,\ny sigo sintiendo el amor más sincero\nlatir en el fondo de mi corazón.\n\nEl tiempo vuela, la vida se va,\npero este cariño jamás morirá."
+    },
+    {
+        "id": 60,
+        "titulo": "Frío y ceniza",
+        "autor": "Santiago Cerdeira",
+        "tipo": "verso",
+        "categorias": [
+            "Invierno",
+            "Nostalgia"
+        ],
+        "fecha": "2026-05-20",
+        "texto": "Se quema la leña en el hogar,\nla ceniza vuela con lentitud,\nel invierno vuelve a invitar\na la más dulce quietud."
+    },
+    {
+        "id": 61,
+        "titulo": "Gratitud final",
+        "autor": "Santiago Cerdeira",
+        "tipo": "reflexion",
+        "categorias": [
+            "Gratitud",
+            "Vida"
+        ],
+        "fecha": "2026-05-21",
+        "texto": "Termina otro viaje alrededor del sol. Gracias a las risas que sanaron, a los llantos que limpiaron y a cada persona que cruzó mi sendero. Vivir es un milagro complejo, y estar aquí para presenciarlo es el mejor regalo de todos."
     }
 ]

@@ -19,7 +19,13 @@
     <section class="controls">
       <div>
         <label for="search">Buscar:</label>
-        <input id="search" type="search" placeholder="Buscar título, autor o palabra clave" />
+        <input id="search" type="search" placeholder="Buscar título, autor, categoría o palabra clave" />
+      </div>
+      <div>
+        <label for="category">Categoría:</label>
+        <select id="category">
+          <option value="todos">Todas</option>
+        </select>
       </div>
       <div class="filters">
         <button class="filter-button active" data-type="todos">Todos</button>
@@ -27,6 +33,10 @@
         <button class="filter-button" data-type="reflexion">Reflexiones</button>
         <button class="filter-button" data-type="verso">Versos</button>
       </div>
+    </section>
+
+    <section class="result-summary">
+      <p id="resultCount" class="result-count">Mostrando entradas...</p>
     </section>
 
     <section id="cards" class="cards" aria-live="polite">
