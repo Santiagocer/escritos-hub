@@ -1167,7 +1167,7 @@
     },
     {
         "id": 98,
-        "titulo": "",
+        "titulo": "Sin título",
         "autor": "Nicolás Maquiavelo",
         "tipo": "frase_filosofica",
         "categorias": [
@@ -1180,9 +1180,9 @@
     },
     {
         "id": 99,
-        "titulo": "",
+        "titulo": "Sin título",
         "autor": "Fiodor Dostoyevski",
-        "tipo": "frase_filosofica",
+        "tipo": "aforismo",
         "categorias": [
             "Verdad"
         ],
@@ -1191,7 +1191,7 @@
     },
     {
         "id": 100,
-        "titulo": "Termina una relación*",
+        "titulo": "Sin título",
         "autor": "Autor Desconocido",
         "tipo": "frase_filosofica",
         "categorias": [
