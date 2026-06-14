@@ -13,6 +13,13 @@ const typeIcons = {
   poema: "✒️",
   reflexion: "💭",
   verso: "🎵",
+  frase_filosofica: "🧠",
+  cuento: "📖",
+  haiku: "🌸",
+  epigrama: "⚡",
+  monologo: "🎭",
+  prosa_poetica: "🎨",
+  aforismo: "💡",
 };
 
 const sortByDateDesc = (list) => [...list].sort((a, b) => b.fecha.localeCompare(a.fecha));
@@ -60,6 +67,12 @@ const renderCategoryTags = (item) => {
 
 const renderTypeLabel = (item) => {
   return `<span class="meta-item"><span class="meta-icon">${getTypeIcon(item.tipo)}</span>${item.tipo}</span>`;
+};
+
+const formatDate = (dateString) => {
+  const [year, month, day] = dateString.split("-");
+  if (!year || !month || !day) return dateString;
+  return `${day.padStart(2, "0")}-${month.padStart(2, "0")}-${year}`;
 };
 
 const renderLoadingMarkup = () => {
@@ -115,7 +128,7 @@ function renderCards(list) {
         </div>
         <h2>${item.titulo}</h2>
         <p>${item.texto.replace(/\n/g, "<br />")}</p>
-        <footer>Autor: ${item.autor} · Publicado: ${item.fecha}</footer>
+        <footer>Autor: ${item.autor} · Publicado: ${formatDate(item.fecha)}</footer>
       </article>`
     )
     .join("");

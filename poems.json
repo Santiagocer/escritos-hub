@@ -732,5 +732,472 @@
         ],
         "fecha": "2026-05-21",
         "texto": "Termina otro viaje alrededor del sol. Gracias a las risas que sanaron, a los llantos que limpiaron y a cada persona que cruzó mi sendero. Vivir es un milagro complejo, y estar aquí para presenciarlo es el mejor regalo de todos."
+    },
+    {
+        "id": 62,
+        "titulo": "Todos somos malos",
+        "autor": "Anónimo",
+        "tipo": "aforismo",
+        "categorias": [
+            "Realidad",
+            "Humanidad"
+        ],
+        "fecha": "2026-06-08",
+        "texto": "Todos somos malos, en historias mal contadas."
+    },
+    {
+        "id": 63,
+        "titulo": "Lo único permanente es el cambio",
+        "autor": "Heráclito (Paráfrasis)",
+        "tipo": "frase_filosofica",
+        "categorias": [
+            "Filosofía",
+            "Tiempo"
+        ],
+        "fecha": "2026-04-30",
+        "texto": "Nadie se baña dos veces en el mismo río, pues nuevas aguas corren constantemente. Así es nuestra vida: un flujo perpetuo donde lo único constante es la transformación. Resistirse a ella es negar la esencia misma de la existencia."
+    },
+    {
+        "id": 64,
+        "titulo": "La sabiduría de la aceptación",
+        "autor": "Marco Aurelio (Paráfrasis)",
+        "tipo": "frase_filosofica",
+        "categorias": [
+            "Estoicismo",
+            "Paz"
+        ],
+        "fecha": "2026-05-01",
+        "texto": "No puedes controlar lo que sucede, pero sí cómo respondes a ello. La verdadera libertad reside en tu capacidad de elegir tu reacción ante las circunstancias. Este poder interior es el tesoro más valioso que posees."
+    },
+    {
+        "id": 65,
+        "titulo": "La ilusión del tiempo lineal",
+        "autor": "Parménides (Paráfrasis)",
+        "tipo": "frase_filosofica",
+        "categorias": [
+            "Metafísica",
+            "Tiempo"
+        ],
+        "fecha": "2026-05-02",
+        "texto": "El pasado ya no existe, el futuro aún no es, y el presente es apenas un instante infinitesimal. Sin embargo, vivimos persiguiendo lo que fue y anhelando lo que será, perdiendo así la única realidad tangible: este momento que se desvanece mientras lo nombro."
+    },
+    {
+        "id": 66,
+        "titulo": "El pescador y la borrasca",
+        "autor": "Santiago Cerdeira",
+        "tipo": "cuento",
+        "categorias": [
+            "Aventura",
+            "Naturaleza"
+        ],
+        "fecha": "2026-05-03",
+        "texto": "Un viejo pescador navegaba cada mañana hacia las mismas aguas. Un día, una tecia tormenta lo sorprendió en alta mar. Mientras otros buscaban puerto, él continuó pescando con calma. Un joven marinero le preguntó: '¿No tienes miedo?'. El anciano respondió: 'He cabalgado tormentas por cuarenta años. Sé que pasarán. Lo que no sé es si mañana tendré fuerzas para estar aquí.' La tormenta cedió, y ambos llegaron a tierra sanos. Aquel día, el joven aprendió que el valor no es la ausencia de miedo, sino la certeza de que todo es temporal."
+    },
+    {
+        "id": 67,
+        "titulo": "El espejo del bosque",
+        "autor": "Santiago Cerdeira",
+        "tipo": "cuento",
+        "categorias": [
+            "Autoconocimiento",
+            "Magia"
+        ],
+        "fecha": "2026-05-04",
+        "texto": "En el corazón de un bosque antiguo existía un espejo que mostraba la verdadera naturaleza de quien se miraba. Muchos huían aterrados al ver quiénes realmente eran. Pero una niña se enfrentó a su reflejo sin temor. Vio sus miedos, sí, pero también su fortaleza oculta. El espejo le sonrió. Desde ese día, cada vez que dudaba de sí misma, recordaba que en algún lugar del mundo existe un espejo que sabe la verdad: que ella es suficiente, exactamente como es."
+    },
+    {
+        "id": 68,
+        "titulo": "La última carta",
+        "autor": "Santiago Cerdeira",
+        "tipo": "cuento",
+        "categorias": [
+            "Amor",
+            "Nostalgia"
+        ],
+        "fecha": "2026-05-05",
+        "texto": "Una mujer encontró una carta antigua entre los libros de su abuelo, dirigida a él pero nunca enviada. Era una declaración de amor hacia su abuela, escrita años antes de conocerla. Con letra temblorosa, confesaba sus miedos, sus sueños. Cuando su abuela leyó aquellas palabras guardadas durante décadas, lágrimas silenciosas corrieron por su rostro. 'No sabía que sentías esto', susurró. Su abuelo sonrió débilmente. 'Algunos amores son tan grandes que las palabras nunca son suficientes. Solo la vida entera junto a ti fue la respuesta que mi corazón necesitaba.' Murió una semana después, pero aquella carta quedó como testigo de un amor que no necesitó ser dicho para ser verdadero."
+    },
+    {
+        "id": 69,
+        "titulo": "Lluvia en las hojas",
+        "autor": "Santiago Cerdeira",
+        "tipo": "haiku",
+        "categorias": [
+            "Naturaleza",
+            "Meditación"
+        ],
+        "fecha": "2026-05-06",
+        "texto": "Lluvia en las hojas—\ncada gota canta su nombre\nantes de volver."
+    },
+    {
+        "id": 70,
+        "titulo": "Tu ausencia",
+        "autor": "Santiago Cerdeira",
+        "tipo": "haiku",
+        "categorias": [
+            "Desamor",
+            "Vacío"
+        ],
+        "fecha": "2026-05-07",
+        "texto": "Tu silla vacía\nguarda aún el calor del cuerpo—\nlibertad amarga."
+    },
+    {
+        "id": 71,
+        "titulo": "Amanecer urbano",
+        "autor": "Santiago Cerdeira",
+        "tipo": "haiku",
+        "categorias": [
+            "Ciudad",
+            "Esperanza"
+        ],
+        "fecha": "2026-05-08",
+        "texto": "Torres de hormigón\nse tiñen de rosa y oro—\nrespira la ciudad."
+    },
+    {
+        "id": 72,
+        "titulo": "La verdad del tiempo",
+        "autor": "Santiago Cerdeira",
+        "tipo": "epigrama",
+        "categorias": [
+            "Tiempo",
+            "Ironía"
+        ],
+        "fecha": "2026-05-09",
+        "texto": "Perseguimos años como si fueran oro,\nsin notar que mientras los buscamos, se nos desvanecen entre los dedos.\nLa mayor ironía de la vida es que solo comprendemos su valor\ncuando ya hemos gastado demasiado del nuestro."
+    },
+    {
+        "id": 73,
+        "titulo": "Espejo de contradicciones",
+        "autor": "Santiago Cerdeira",
+        "tipo": "epigrama",
+        "categorias": [
+            "Humanidad",
+            "Ironía"
+        ],
+        "fecha": "2026-05-10",
+        "texto": "Nacemos llorando porque sabemos lo que nos espera.\nMorimos callados porque finalmente lo comprendemos.\nEntre ambos puntos, gastamos toda nuestra inteligencia\nen fingir que todo tiene sentido."
+    },
+    {
+        "id": 74,
+        "titulo": "Jardín de olvidos",
+        "autor": "Santiago Cerdeira",
+        "tipo": "epigrama",
+        "categorias": [
+            "Memoria",
+            "Melancolía"
+        ],
+        "fecha": "2026-05-11",
+        "texto": "Guardo en una caja tus cartas amarillentas,\ntus fotos donde aún sonríes sin dolor.\nPero he olvidado el tono exacto de tu voz,\nlo cual prueba que ni los recuerdos nos pertenecen verdaderamente."
+    },
+    {
+        "id": 75,
+        "titulo": "Confesión de un que-hacer",
+        "autor": "Santiago Cerdeira",
+        "tipo": "monologo",
+        "categorias": [
+            "Introspección",
+            "Culpa"
+        ],
+        "fecha": "2026-05-12",
+        "texto": "Hoy me vi al espejo y reconocí a ese desconocido. Tengo treinta y cinco años y sigo viviendo como si los dieciocho no hubieran terminado. Me dije que era joven, que había tiempo. Que después de la universidad vendría la estabilidad. Que después del trabajo vendría el amor. Que después del éxito vendría la paz. Pero aquí estoy, en el 'después' de todo y sigo esperando que empiece la vida real. ¿Y si esto es todo? ¿Y si esta es mi realidad y la he estado desperdiciando esperando una película que nunca se estrena?"
+    },
+    {
+        "id": 76,
+        "titulo": "El performance de la normalidad",
+        "autor": "Santiago Cerdeira",
+        "tipo": "monologo",
+        "categorias": [
+            "Sociedad",
+            "Máscara"
+        ],
+        "fecha": "2026-05-13",
+        "texto": "Cada mañana me pongo la ropa, el maquillaje, la sonrisa. Digo 'buenos días' como si realmente lo fueran. Pretendo que estoy bien, que tengo todo bajo control. Porque mostrar grietas es inaceptable. El mundo necesita que seas fuerte, exitoso, siempre dispuesto. Así que guardé mis fracasos en una caja que escondo bajo la cama. Sellé mis miedos con cinta adhesiva. Puse un cartel de 'No pasar' en mi puerta interior. Y aquí estoy, funcionando perfectamente como un robot que aprendió a sonreír. ¿Alguien más cansa de este teatro?"
+    },
+    {
+        "id": 77,
+        "titulo": "Conversación con el silencio",
+        "autor": "Santiago Cerdeira",
+        "tipo": "monologo",
+        "categorias": [
+            "Soledad",
+            "Paz"
+        ],
+        "fecha": "2026-05-14",
+        "texto": "El silencio es mi mejor amigo. No me juzga. No exige que sea diferente. En el silencio, puedo ser yo sin traducción. Puedo pensar mis pensamientos raros. Puedo sentir mis sentimientos inútiles. Puedo existir sin justificar mi existencia. La gente me pregunta si no me aburro. Cómo podrían entender que el silencio es donde nacen los sueños, donde se cultiva la verdad, donde finalmente descubrimos quiénes somos debajo de todos los gritos del mundo. El silencio no es vacío. El silencio es plenitud."
+    },
+    {
+        "id": 78,
+        "titulo": "Vigilia nocturna",
+        "autor": "Santiago Cerdeira",
+        "tipo": "prosa_poetica",
+        "categorias": [
+            "Noche",
+            "Soledad"
+        ],
+        "fecha": "2026-05-15",
+        "texto": "A las tres de la mañana, cuando la ciudad duerme y respira lentamente, me siento en la ventana y observo el mundo que cambia. Las luces de las casas lejanas parpadean como luciérnagas congeladas. El silencio es tan profundo que puedo escuchar los latidos de mi propio corazón. Es en estas horas cuando la verdad baja desde el cielo sin anunciarse. Aquí, en la oscuridad, finalmente conozco mis verdaderos deseos. Aquí, lejos de los ruidos del día, descubro que no estoy tan solo. El universo me vigila con ternura."
+    },
+    {
+        "id": 79,
+        "titulo": "Danza de la lluvia",
+        "autor": "Santiago Cerdeira",
+        "tipo": "prosa_poetica",
+        "categorias": [
+            "Naturaleza",
+            "Movimiento"
+        ],
+        "fecha": "2026-05-16",
+        "texto": "Las gotas caen en sinfonía desordenada, cada una una bailarina en el escenario infinito del cielo. Golpean las ventanas con dedos trémulos. Trazan caminos en la tierra que nadie pedía que dibujaran. Algunas se juntan en charcos, compartiendo reflexiones de nubes. Otras corren hacia las alcantarillas, presurosas por regresar al mar que las originó. Hay un propósito en su caída que desafía la lógica. Una poesía en su movimiento que enseña lo que los poetas tardan una vida entera en comprender: la belleza reside en el movimiento mismo, no en el destino."
+    },
+    {
+        "id": 80,
+        "titulo": "Retrato del desamor",
+        "autor": "Santiago Cerdeira",
+        "tipo": "prosa_poetica",
+        "categorias": [
+            "Desamor",
+            "Aceptación"
+        ],
+        "fecha": "2026-05-17",
+        "texto": "No duele como imaginaba. Duele diferente. Es un cansancio en los huesos, una apatía que tiñe los colores de gris. Tu ausencia no es un agujero negro que grita. Es más bien una habitación vacía donde solía haber música. Intento recordar la melodía exacta, pero solo me quedan ecos. La gente dice que pasará, que el tiempo cura. Quizás tengan razón. Pero hoy, en este instante, permíteme estar triste sin que sea dramático. Permíteme extrañarte sin que signifique ser débil. Permíteme estar roto, porque es en las grietas donde la luz comienza a entrar."
+    },
+    {
+        "id": 81,
+        "titulo": "La verdad es incómoda",
+        "autor": "Santiago Cerdeira",
+        "tipo": "aforismo",
+        "categorias": [
+            "Sabiduría",
+            "Verdad"
+        ],
+        "fecha": "2026-05-18",
+        "texto": "Preferimos una mentira cómoda a una verdad incómoda. Por eso el mundo está lleno de gente conforme con lo falso."
+    },
+    {
+        "id": 82,
+        "titulo": "Elegancia del desorden",
+        "autor": "Santiago Cerdeira",
+        "tipo": "aforismo",
+        "categorias": [
+            "Caos",
+            "Belleza"
+        ],
+        "fecha": "2026-05-19",
+        "texto": "La naturaleza no busca la perfección, busca el equilibrio. Por eso los árboles torcidos son más hermosos que los árboles rectos."
+    },
+    {
+        "id": 83,
+        "titulo": "Herencia de los muertos",
+        "autor": "Santiago Cerdeira",
+        "tipo": "aforismo",
+        "categorias": [
+            "Legado",
+            "Memoria"
+        ],
+        "fecha": "2026-05-20",
+        "texto": "No heredamos solo dinero de nuestros antepasados. Heredamos sus sueños incompletos y sus arrepentimientos silenciosos. La pregunta es: ¿qué haremos con esa carga?"
+    },
+    {
+        "id": 84,
+        "titulo": "El príncipe y la virtud",
+        "autor": "Nicolás Maquiavelo",
+        "tipo": "frase_filosofica",
+        "categorias": [
+            "Poder",
+            "Política"
+        ],
+        "fecha": "2026-06-01",
+        "texto": "Es mejor ser temido que amado, si uno debe elegir. Porque los hombres en general son ingratos, volubles, simuladores y disimuladores, siempre ávidos de ganancia. Mientras les haces bien, te pertenecen; pero cuando la necesidad aprieta, se rebelan."
+    },
+    {
+        "id": 85,
+        "titulo": "Fortuna y virtud",
+        "autor": "Nicolás Maquiavelo",
+        "tipo": "frase_filosofica",
+        "categorias": [
+            "Destino",
+            "Acción"
+        ],
+        "fecha": "2026-06-02",
+        "texto": "La fortuna es mujer, y es necesario, si se quiere tenerla sometida, tratarla con rudeza. Se ve que ella se deja vencer más fácilmente por los hombres audaces que por los tímidos."
+    },
+    {
+        "id": 86,
+        "titulo": "La necesidad y la acción",
+        "autor": "Nicolás Maquiavelo",
+        "tipo": "aforismo",
+        "categorias": [
+            "Necesidad",
+            "Pragmatismo"
+        ],
+        "fecha": "2026-06-03",
+        "texto": "Cuando la necesidad aprieta, todos los medios se justifican. La virtud es un lujo que solo pueden permitirse los que ya tienen el poder asegurado."
+    },
+    {
+        "id": 87,
+        "titulo": "Los hombres y sus mentiras",
+        "autor": "Nicolás Maquiavelo",
+        "tipo": "frase_filosofica",
+        "categorias": [
+            "Verdad",
+            "Engaño"
+        ],
+        "fecha": "2026-06-04",
+        "texto": "Los hombres son tan simples que hasta el que está resuelto a enganar encontrará siempre a alguien dispuesto a ser engañado. Las masas no tienen memoria, solo tienen hambre: hambre de pan, de justicia y de mentiras bien contadas."
+    },
+    {
+        "id": 88,
+        "titulo": "El precio del poder",
+        "autor": "Nicolás Maquiavelo",
+        "tipo": "aforismo",
+        "categorias": [
+            "Poder",
+            "Sacrificio"
+        ],
+        "fecha": "2026-06-05",
+        "texto": "Un príncipe debe estar dispuesto a abandonar sus principios morales si el Estado lo exige. El que gobierna no puede permitirse el lujo de ser honesto cuando la supervivencia del reino está en juego."
+    },
+    {
+        "id": 89,
+        "titulo": "La apariencia es realidad",
+        "autor": "Nicolás Maquiavelo",
+        "tipo": "frase_filosofica",
+        "categorias": [
+            "Apariencia",
+            "Ilusión"
+        ],
+        "fecha": "2026-06-06",
+        "texto": "Lo que importa no es ser virtuoso, sino parecerlo. El vulgo se deja llevar por las apariencias y por el resultado de las cosas. En este mundo hay solo vulgares; los hombres precavidos buscan mantener una imagen de virtud aunque actúen como demonios."
+    },
+    {
+        "id": 90,
+        "titulo": "La gloria y la infamia",
+        "autor": "Nicolás Maquiavelo",
+        "tipo": "aforismo",
+        "categorias": [
+            "Gloria",
+            "Ambición"
+        ],
+        "fecha": "2026-06-07",
+        "texto": "Es mejor ser recordado por la fuerza que por la bondad. La gloria del tirano es más luminosa que la benevolencia del santo que nadie recuerda."
+    },
+    {
+        "id": 91,
+        "titulo": "La naturaleza humana",
+        "autor": "Nicolás Maquiavelo",
+        "tipo": "frase_filosofica",
+        "categorias": [
+            "Humanidad",
+            "Realidad"
+        ],
+        "fecha": "2026-06-08",
+        "texto": "Si todos los hombres fueran buenos, sería una tontera ser bueno. Los hombres son por naturaleza egoístas, ambiciosos y traicioneros. Quien no lo comprende está condenado a fracasar en la política y en la vida."
+    },
+    {
+        "id": 92,
+        "titulo": "Lealtad y utilidad",
+        "autor": "Nicolás Maquiavelo",
+        "tipo": "aforismo",
+        "categorias": [
+            "Relaciones",
+            "Interes"
+        ],
+        "fecha": "2026-06-09",
+        "texto": "Los hombres olvidan rápidamente la muerte de un padre que la pérdida de un patrimonio. La lealtad solo existe mientras existe el provecho. Cuando este se agota, desaparecen los amigos."
+    },
+    {
+        "id": 93,
+        "titulo": "La crueldad calculada",
+        "autor": "Nicolás Maquiavelo",
+        "tipo": "frase_filosofica",
+        "categorias": [
+            "Política",
+            "Control"
+        ],
+        "fecha": "2026-06-10",
+        "texto": "Es mejor cometer una crueldad de una sola vez que mantener la amenaza de ella constantemente. Una tiranía moderada es más efectiva que una tiranía violenta, pero ambas son mejores que la indecisión del gobernante débil."
+    },
+    {
+        "id": 94,
+        "titulo": "El arte de la guerra política",
+        "autor": "Nicolás Maquiavelo",
+        "tipo": "aforismo",
+        "categorias": [
+            "Estrategia",
+            "Poder"
+        ],
+        "fecha": "2026-06-11",
+        "texto": "Ante un enemigo, es mejor atacar primero que esperar ser atacado. La clemencia interpretada como debilidad solo atrae a más enemigos. El príncipe sabio golpea primero y perdona después, si es que perdona."
+    },
+    {
+        "id": 95,
+        "titulo": "Las leyes y el miedo",
+        "autor": "Nicolás Maquiavelo",
+        "tipo": "frase_filosofica",
+        "categorias": [
+            "Justicia",
+            "Control"
+        ],
+        "fecha": "2026-06-12",
+        "texto": "Las leyes existen no para educar sino para controlar. Un pueblo asustado obedece mejor que un pueblo educado. Por eso los tiranos prefieren ciudadanos analfabetos que ciudadanos ilustrados."
+    },
+    {
+        "id": 96,
+        "titulo": "Cambio y adaptación",
+        "autor": "Nicolás Maquiavelo",
+        "tipo": "aforismo",
+        "categorias": [
+            "Adaptación",
+            "Política"
+        ],
+        "fecha": "2026-06-13",
+        "texto": "El príncipe que no cambia sus métodos cuando los tiempos cambian perecerá. La flexibilidad moral es una virtud política, no una debilidad."
+    },
+    {
+        "id": 97,
+        "titulo": "Verdad última",
+        "autor": "Nicolás Maquiavelo",
+        "tipo": "aforismo",
+        "categorias": [
+            "Política",
+            "Realidad"
+        ],
+        "fecha": "2026-06-14",
+        "texto": "Detrás de cada trono hay un acto de violencia. Detrás de cada ley justa hay un interés oscuro. Quien entiende esto ha comprendido finalmente cómo funciona el mundo."
+    },
+    {
+        "id": 98,
+        "titulo": "",
+        "autor": "Nicolás Maquiavelo",
+        "tipo": "frase_filosofica",
+        "categorias": [
+            "Desamor",
+            "Hombres",
+            "Venganza"
+        ],
+        "fecha": "2026-06-14",
+        "texto": "Si vas a dañar a un hombre... hazlo de tal forma que no tengas que temer su venganza."
+    },
+    {
+        "id": 99,
+        "titulo": "",
+        "autor": "Fiodor Dostoyevski",
+        "tipo": "frase_filosofica",
+        "categorias": [
+            "Verdad"
+        ],
+        "fecha": "2026-06-14",
+        "texto": "Es mejor ser infeliz... y conocer la verdad, a ser feliz en el paraíso de un ciego."
+    },
+    {
+        "id": 100,
+        "titulo": "Termina una relación*",
+        "autor": "Autor Desconocido",
+        "tipo": "frase_filosofica",
+        "categorias": [
+            "Relaciones"
+        ],
+        "fecha": "2026-06-15",
+        "texto": "No llores porque terminó... Sonríe porque sucedió."
     }
 ]
